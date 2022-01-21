@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Change</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <div class="tool">
+            <img src="./Icons/Blue_Pencil.svg" alt="" id="pencil" class="tool-image">
+            <div class="size-box">
+                <div class="size1 size"></div>
+                <div class="size2 size"></div>
+                <div class="size3 size"></div>
+                <div class="size4 size"></div>
+            </div>
+        </div>
+        <div class="tool">
+            <img class="tool-image" id="eraser" src="./Icons/Eraser.svg" alt="">
+            <div class="size-box">
+                <div class="size1 size"></div>
+                <div class="size2 size"></div>
+                <div class="size3 size"></div>
+                <div class="size4 size"></div>
+            </div>
+        </div>
+        <div class="tool">
+            <img class="tool-image" id="rectangle" src="./Icons/rectangle.png" alt="">
+            <div class="size-box">
+                <div class="size1 size"></div>
+                <div class="size2 size"></div>
+                <div class="size3 size"></div>
+                <div class="size4 size"></div>
+            </div>
+        </div>
+        <div class="tool">
+            <img class="tool-image" id="line" src="./Icons/line.png" alt="">
+            <div class="size-box">
+                <div class="size1 size"></div>
+                <div class="size2 size"></div>
+                <div class="size3 size"></div>
+                <div class="size4 size"></div>
+            </div>
+        </div>
+        
+        <div class="tool" id="stickyNotes">
+            <img src="./Icons/StickyNote.svg" class="tool-image">
+        </div>
+
+        <div class="color-container">
+            <div class="color" id="red"></div>
+            <div class="color" id="green"></div>
+            <div class="color" id="blue"></div>
+            <div class="color" id="black"></div>
+        </div>
+
+
+    </div>
+    
+    <canvas></canvas>
+
+<!-- Toolbar Effects -->
+<script src="./ToolBarEffects.js"></script>
+
+<!-- Tool Setup -->
+<script src="./ToolSetup.js"></script>
+
+<!-- Color Change Logic -->
+<script src="./colorChange.js"></script>
+
+<!-- Size Change -->
+<script src="./sizeChange.js"></script>
+
+<!-- Sticky Notes -->
+<script src="./sticky.js"></script>
+
+</body>
+
+</html>
